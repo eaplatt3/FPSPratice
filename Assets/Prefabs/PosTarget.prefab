@@ -120,7 +120,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28700587d71de451c836d5ef90cc897c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreAmount: 5
+  scoreAmount: 10
   timeAmount: 0
   explosionPrefab: {fileID: 454294355963409869, guid: 90ddd2a3f4930c8499b944a5e23024a5,
     type: 3}

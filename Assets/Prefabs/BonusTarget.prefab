@@ -84,5 +84,9 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 454294355963409869, guid: 4f7aa02676a31fb4caffd3a606daa6be,
         type: 3}
+    - target: {fileID: 1053333381, guid: faca8c72eb0448648ae9bce2d30db812, type: 3}
+      propertyPath: scoreAmount
+      value: 20
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: faca8c72eb0448648ae9bce2d30db812, type: 3}
