@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &4466524616081993990
+--- !u!1001 &8442110162811325811
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -10,12 +10,12 @@ PrefabInstance:
     - target: {fileID: 5136632679929603652, guid: faca8c72eb0448648ae9bce2d30db812,
         type: 3}
       propertyPath: m_Name
-      value: TargetNegative
+      value: NegTarget
       objectReference: {fileID: 0}
     - target: {fileID: 5136632679929603649, guid: faca8c72eb0448648ae9bce2d30db812,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.2
+      value: -1.154
       objectReference: {fileID: 0}
     - target: {fileID: 5136632679929603649, guid: faca8c72eb0448648ae9bce2d30db812,
         type: 3}
@@ -25,22 +25,22 @@ PrefabInstance:
     - target: {fileID: 5136632679929603649, guid: faca8c72eb0448648ae9bce2d30db812,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.22
+      value: 4.01
       objectReference: {fileID: 0}
     - target: {fileID: 5136632679929603649, guid: faca8c72eb0448648ae9bce2d30db812,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 5136632679929603649, guid: faca8c72eb0448648ae9bce2d30db812,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 5136632679929603649, guid: faca8c72eb0448648ae9bce2d30db812,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 5136632679929603649, guid: faca8c72eb0448648ae9bce2d30db812,
         type: 3}
@@ -50,7 +50,7 @@ PrefabInstance:
     - target: {fileID: 5136632679929603649, guid: faca8c72eb0448648ae9bce2d30db812,
         type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5136632679929603649, guid: faca8c72eb0448648ae9bce2d30db812,
         type: 3}
@@ -67,20 +67,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5136632679929603655, guid: faca8c72eb0448648ae9bce2d30db812,
-        type: 3}
+    - target: {fileID: 1053333380, guid: faca8c72eb0448648ae9bce2d30db812, type: 3}
+      propertyPath: m_Name
+      value: NegTarget
+      objectReference: {fileID: 0}
+    - target: {fileID: 1053333384, guid: faca8c72eb0448648ae9bce2d30db812, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 907a16b652c544935b5ceacc1bdaefa4, type: 2}
-    - target: {fileID: 5136632679929603653, guid: faca8c72eb0448648ae9bce2d30db812,
-        type: 3}
-      propertyPath: enableMoveV
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5136632679929603653, guid: faca8c72eb0448648ae9bce2d30db812,
-        type: 3}
-      propertyPath: enableSpin
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: faca8c72eb0448648ae9bce2d30db812, type: 3}
