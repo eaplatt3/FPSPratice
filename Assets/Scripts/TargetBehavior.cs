@@ -22,6 +22,7 @@ public class TargetBehavior : MonoBehaviour
 
 		// only do stuff if hit by a projectile
 		if (newCollision.gameObject.tag == "Projectile") {
+            print("projectile was hit");
 			if (explosionPrefab) {
 				// Instantiate an explosion effect at the gameObjects position and rotation
 				Instantiate (explosionPrefab, transform.position, transform.rotation);
@@ -34,6 +35,8 @@ public class TargetBehavior : MonoBehaviour
 				
 			// destroy the projectile
 			Destroy (newCollision.gameObject);
+
+            print("Destroy Called");
 				
 			// destroy self
 			Destroy (gameObject);
